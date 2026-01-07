@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box sizing : border box make the padding in the boxes  */
+  box-sizing: border-box;
+}
+.font-open-sans- {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.color-orange {
+  color: #fd6e0a;
+}
+.btn {
+  border: none;
+  background-color: #fd6e0a;
+  color: white;
+  border-radius: 5px;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+header {
+  padding-top: 50px;
+  background: url(/hero-dev-portfolio-resources/images/developer.png),
+    url(/hero-dev-portfolio-resources/images/header_bg.png), #fff8f3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 51px;
+  align-items: center;
+}
+nav .menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+#hero-c {
+  margin-left: 230px;
+  margin-top: 47px;
+  margin-right: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero-c .hero-c h2 {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+#hero-c .hero-c h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+#hero-c .hero-c p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#hero-c .hero-c {
+  max-width: 585px;
+}
+#hero-c .hero-img img {
+  max-width: 585px;
+  vertical-align: middle;
+}
+#about {
+  padding-top: 130px;
+}
+#about .about-box {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-heading h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p {
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #757575;
+}
+.about-box .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card p {
+  line-height: 30px;
+  font-size: 20px;
+  color: #757575;
+}
+.about-info .info-card h2 {
+  font-size: 20px;
+}
+#skills,
+#resume {
+  padding-top: 130px;
+}
+#skills .skills-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#skills .skills-container .skill-box {
+  display: flex;
+
+  gap: 34px;
+}
+#skills .skills-container .skill-box .skill-card {
+  border: 1px solid black;
+  max-width: 267px;
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 #00000027;
+}
+.skill-card img {
+  width: 44px;
+  margin-bottom: 30px;
+}
+.skill-card h3 {
+  font-size: 19px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140;
+  margin: 113px auto 0;
+}
+#resume .resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.resume-container .section-title {
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+#resume .card-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+#resume .card-info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+#resume .card-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.resume-container hr {
+  margin: 30px;
+}
+footer {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px;
+}
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0;
+  display: flex;
+
+  gap: 116px;
+  margin-left: 230px;
+}
+footer .footer-container .social {
+  max-width: 562px;
+}
+footer h2 {
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.footer-container p {
+  color: #474747;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer-container .icons a {
+  margin-right: 24px;
+}
